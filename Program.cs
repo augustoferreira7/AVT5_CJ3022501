@@ -7,6 +7,7 @@ namespace LaçoRepetição
     {
         static void Main(string[] args)
         {
+            //Exercício teste
             int soma = 0, val;
             for (int i = 0; i < 4; i++)
             {
@@ -28,7 +29,7 @@ namespace LaçoRepetição
 
 
 
-
+            //Primeiro exercício
             int Num;
             Console.WriteLine("digite um número para contarmos até ele:");
             Num = int.Parse(Console.ReadLine());
@@ -42,6 +43,7 @@ namespace LaçoRepetição
             Console.Clear();
 
 
+            //segundo execício
             int Nume;
             Console.WriteLine("digite um número para contarmos os números pares até ele até ele:");
             Nume = int.Parse(Console.ReadLine());
@@ -56,7 +58,7 @@ namespace LaçoRepetição
             Thread.Sleep(2000);
             Console.Clear();
 
-
+            //Terceiro execício
             int Numer;
             Console.WriteLine("digite um número(menor que mil) para contarmos os números pares de mil até ele:");
             Numer = int.Parse(Console.ReadLine());
@@ -78,6 +80,7 @@ namespace LaçoRepetição
             Console.Clear();
 
 
+            //Quarto execício
             int valor = 0, Num1;
             for (int i = 0; ; i++)
             {
@@ -113,7 +116,7 @@ namespace LaçoRepetição
 
 
 
-
+            //Quinto execício
             int Num2;
             do
             {
@@ -137,9 +140,11 @@ namespace LaçoRepetição
             
             
             Thread.Sleep(2000);
-            Console.Clear ();   
+            Console.Clear ();
 
-    
+
+
+            //Sexto execício
             int[] numeros = new int[10];
             int maior, menor;
 
@@ -174,9 +179,11 @@ namespace LaçoRepetição
             Thread.Sleep(2000);
             Console.Clear ();
 
-                int numero;
-                int Pares = 0;
-                int Impar = 0;
+
+            //Sétimo execício
+            int numero;
+            int Pares = 0;
+            int Impar = 0;
 
             Console.Clear();
                 Console.WriteLine("Digite uma sequência de números (digite 0 para parar):");
